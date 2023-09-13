@@ -1,0 +1,14 @@
+.hamburger{
+    display: block;
+    width: 15px;
+    height: 2px;
+    margin: 3px 1px;
+    background-color: #0dcaf0;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    .hamburger{
+        background-color: #f8f9fa;
+    }
+}
