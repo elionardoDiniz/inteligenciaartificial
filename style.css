@@ -9,4 +9,9 @@
 
 .btn:hover .hamburger {
   background-color: #f8f9fa;
+}
+
+#homecarousel {
+  height: 500px !important;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
