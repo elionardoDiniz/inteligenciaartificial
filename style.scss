@@ -13,7 +13,17 @@
     }
 }
 
-#homecarousel{
-    height: 500px !important;
-    overflow: hidden;
+[class*="cr-img-"]{
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+// .cr-img-1{
+//     background-image: url();
+// }
+
+// .cr-img-2{
+//     background-image: url();
+// }

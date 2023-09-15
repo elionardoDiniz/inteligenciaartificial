@@ -11,7 +11,9 @@
   background-color: #f8f9fa;
 }
 
-#homecarousel {
-  height: 500px !important;
-  overflow: hidden;
+[class*=cr-img-] {
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
