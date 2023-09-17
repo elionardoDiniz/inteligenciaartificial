@@ -13,11 +13,6 @@
     }
 }
 
-#homecarousel{
-    height: 500px !important;
-    overflow: hidden;
-}
-
 .card-text{
     text-align: justify;
 }
@@ -30,4 +25,26 @@ h6{
     width: 15px;
     height: 15px;
     transform: rotate(225deg);
+}
+
+[class*="cr-img-"]{
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .carousel-caption{
+        backdrop-filter: brightness(30%);
+    }
+}
+
+.cr-img-1{
+    background-image: url(./img/pexels-lj-2085831.jpg);
+}
+
+.cr-img-2{
+    background-image: url(./img/pexels-matheus-bertelli-16027811.jpg);
+}
+
+.cr-img-3{
+    background-image: url(./img/pexels-pavel-danilyuk-8438923.jpg);
 }
