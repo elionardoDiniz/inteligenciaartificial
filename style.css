@@ -16,7 +16,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(30%);
+}
+[class*=cr-img-] .carousel-caption {
+  -webkit-backdrop-filter: brightness(30%);
+          backdrop-filter: brightness(30%);
 }
 
 .cr-img-1 {
