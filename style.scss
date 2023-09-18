@@ -1,19 +1,20 @@
+$info: #0dcaf0;
+$light: #f8f9fa;
+
 .hamburger{
     display: block;
     width: 15px;
     height: 2px;
     margin: 3px 1px;
-    background-color: #0dcaf0;
+    background-color: $info;
     border-radius: 5px;
 }
 
-.btn:hover{
-    .hamburger{
-        background-color: #f8f9fa;
-    }
+.btn:hover .hamburger{
+    background-color: $light;
 }
 
-.card-text{
+p, .card-text{
     text-align: justify;
 }
 
@@ -33,18 +34,14 @@ h6{
     background-repeat: no-repeat;
     background-size: cover;
     .carousel-caption{
-        backdrop-filter: brightness(30%);
-    }
+        backdrop-filter: brightness(20%);
+    }   
 }
 
 .cr-img-1{
     background-image: url(./img/pexels-lj-2085831.jpg);
-}
-
-.cr-img-2{
+}.cr-img-2{
     background-image: url(./img/pexels-matheus-bertelli-16027811.jpg);
-}
-
-.cr-img-3{
+}.cr-img-3{
     background-image: url(./img/pexels-pavel-danilyuk-8438923.jpg);
 }
