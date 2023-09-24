@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-vh-100 d-flex justify-content-between flex-column">
+    <header class="navbar bg-dark sticky-top">
+        <div class="container-fluid flex-row justify-content-between">
+            <a href="index.html" class="navbar-brand text-info">
+                Neural<strong>Syntax</strong>
+            </a>
+            <button class="btn btn-outline-info d-md-none p-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNavigation">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <div class="offcanvas-md offcanvas-start bg-dark" data-bs-backdrop="static" id="offcanvasNav">
+                <div class="offcanvas-header" tabindex="-1" aria-labelledby="navigationTitle">
+                    <h5 class="offcanvas-title text-light" id="navigationTitle">
+                        <strong class="text-info">NeuralSyntax:</strong> IA
+                    </h5>
+                    <button type="button" class="btn-close bg-info" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#offcanvasNav"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between">
+                    <nav class="nav nav-pills text-center d-flex flex-column flex-md-row">
+                        <li class="nav-item m-1">
+                            <a href="index.html" class="btn btn-outline-info w-100">
+                                <svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6 22.8787C4.34315 22.8787 3 21.5355 3 19.8787V9.87866C3 9.84477 3.00169 9.81126 3.00498 9.77823H3C3 9.20227 3.2288 8.64989 3.63607 8.24262L9.87868 2.00002C11.0502 0.828445 12.9497 0.828445 14.1213 2.00002L20.3639 8.24264C20.7712 8.6499 21 9.20227 21 9.77823H20.995C20.9983 9.81126 21 9.84477 21 9.87866V19.8787C21 21.5355 19.6569 22.8787 18 22.8787H6ZM12.7071 3.41423L19 9.70713V19.8787C19 20.4309 18.5523 20.8787 18 20.8787H15V15.8787C15 14.2218 13.6569 12.8787 12 12.8787C10.3431 12.8787 9 14.2218 9 15.8787V20.8787H6C5.44772 20.8787 5 20.4309 5 19.8787V9.7072L11.2929 3.41423C11.6834 3.02371 12.3166 3.02371 12.7071 3.41423Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                                Início
+                            </a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-dark nav-link text-light">
+                                    Sobre
+                                </a>
+                                <a href="" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                                    <span class="visually-hidden">Dropdown</span>
+                                </a>
+                                <ul class="dropdown-menu bg-info">
+                                    <li><a href="ais.html" class="dropdown-item">Inteligência Artificial</a></li>
+                                    <li><a href="ml.html" class="dropdown-item">Machine Learning</a></li>
+                                    <li><a href="redes.html" class="dropdown-item">Redes Neurais</a></li>
+                                    <li><a href="#" class="dropdown-item">Áreas de Uso</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a href="" class="btn btn-dark">
+                                Contato
+                            </a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div> 
+    </header>
+    <div class="container-md">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class="text-primary text-center display-5 p-3">Áreas de Uso de IA</h1>
+                <p class="p-5">Agora que já foram explicadas o que são, pra que servem e como são produzidas as inteligências artificiais, nada melhor do que enfatizar a importância do desenvolvimento de IA no nosso dia-a-dia e no nosso futuro.</p>
+            </div>
+            <div class="col-12 col-md-6 d-flex p-4">
+                <img src="./img/pexels-lj-2085831.jpg" alt="" class="img-fluid align-self-center rounded">
+            </div>
+        </div>
+    </div>
+    <div class="container-md my-5">
+        <div class="accordion" id="contentAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button btn btn-outline-info" data-bs-target="#collapseOne" data-bs-toggle="collapse">
+                        Pesquisas Científicas
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#contentAccordion">
+                    <div class="accordion-body">
+                        <p>As tecnologias evoluem rapidamente e sempre buscam auxiliar na aceleração desse processo de evolução. Inteligências artificiais já são úteis em diferentes áreas de ciências exatas, biológicas, humanas e etc, graças a utilidade e agilidade quanto se trata de cálculos, análises de dados e visualição de dados.</p>
+                        <p>Um dos maiores exemplos é a astronomia, onde já são enviadas inteligências artificiais em foguetes, satélites e robôs que coletam, analisam, visualizam e retornam as informações coletadas durante a pesquisa. A astrobiologista Kimberley Warren-Rhodes, com sua equipe, demonstrou uso do Machine Learning nessa área ao criar um algoritmo que calcula as possibilidades da existência de vida em Marte.</p>
+                        <p>Para testar a inteligência artificial, os pesquisadores foram à região entre o Deserto do Atacama e o Planalto do Altiplano, no Chile, local com características semelhantes à encontrada em Marte e conhecido como Salar de Pajonais. A região é seca, pobre em oxigênio e recebe altas exposições de raios ultravioleta, mesmo assim é possível encontrar vida sob o solo, vivendo em formações minerais.</p>
+                        <p>Outras IAs ainda podem ser utilizadas em áreas da física quântica, computação e outras ciências.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button btn btn-outline-info collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse">
+                        Medicina e Farmácia
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+                    <div class="accordion-body">
+                        <p>Outra área muito importante para nós é a medicina e a saúde, que todos os dias vem tentando melhorar para o bem-estar de todas as pessoas. E os profissionais de inteligência artificial não poderiam deixar essa área passar.</p>
+                        <p>Já estão sendo construídos e testados modelos de consulta e diagnóstico, treinados para identificar doenças e deficiêncais físicas e mentais, buscando um atendimento remoto e rápido que não pode ser disponibilizado por hospitais e farmácias devido a distância, as filas e o número limitado de funcionário.</p>
+                        <p>Insilico Medicine é uma empresa farmacêutica que começou a aplicar algoritmos inteligentes o suficiente para simular, criar e testar diferentes remédios, toxinas, bactérias e tratamentos em cenários hipotéticos programados, que consequentemente vão ser aplicados na nossa vida real. E acredite, a grande maioria dos testes do agente são precisos e funcionais até na realidade, até o momento.</p>
+                        <p>Além disso, recentemente um grupo de alunos da Etec de Ribeirão Pires ganhou uma competição mundial de inteligência artificial, onde eles criaram um algoritmo capaz de se comunicar com pessoas que têm esclerose lateral amiotrófica, e consequentemente não podem falar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button btn btn-outline-info collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse">
+                        Gestão Empresarial e Financeira
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+                    <div class="accordion-body">
+                        <p>A área de recursos humanos já aplica algoritmos inteligentes a muito tempo, esses que podem ler, analisar e avaliar os melhores currículos em questões de segundos, e só se considerados válidos serão enviados ao profissional de RH. Isso agiliza e facilita o contrato de profissionais para a empresa.</p>
+                        <p>Outro uso comum é nos cálculos de lucros e outras finaças da enoresa, além de gerar dados estatísticos organizados e avaliar previsões que possam influenciar o desempenho das empresas.</p>
+                        <p>Também podem gerenciar os estoques e ainda estabelecer contato e suporte ao cliente, sem que precise de um profissional diariamente ativo para isso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button btn btn-outline-info collapsed" data-bs-target="#collapseFour" data-bs-toggle="collapse">
+                        No Cotidiano
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+                    <div class="accordion-body">
+                        <p>No nosso dia-a-dia, as inteligências artificiais já estão presentes em tantas coisas, que no geral, já devemos ser dependentes das habilidades delas.</p>
+                        <p>Quando você acessa qualquer rede social ou marketplace, por exemplo, um algoritmo costuma buscar o seu histórico de visualizações, pesquisas e até seus gostos para te trazer os assuntos e posts mais voltados ao seu interesse e te manter engajado nesse meio.</p>
+                        <p>Quando você abre o Google Maps e tenta buscar o caminho mais rápido até um shopping, uma IA calcula o tempo, a distância e os melhores caminhos que você pode levar.</p>
+                        <p>Além disso, as pessoas já costumam utilizar assistentes como Alexa, Google Assistant e Siri no próprio dia-a-dia para agilizar as pesquisas, criar anotações, fazer perguntas e se organizar.</p>
+                        <p>O leque de possibilidades é enorme e vai continuar crescendo cada vez mais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-auto">
+        <div class="row">
+            <div class="col-11 text-center text-primary">
+                <h6>Trabalho acadêmico, sem fins lucrativos</h6>
+                <h6>Elionardo Diniz 2023 - &copyTodos os direitos reservados</h6>
+            </div>
+            <div class="col">
+                <a href="#" class="anchor border-end border-bottom d-block border-info"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
